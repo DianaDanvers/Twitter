@@ -17,7 +17,24 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="6rk-J9-IVs">
+                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.53616807830000002" green="0.44018004220000001" blue="0.71834520729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="SaR-gX-AQ1"/>
+                                    <constraint firstAttribute="height" constant="200" id="VEu-aG-WyY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53616807830000002" green="0.44018004220000001" blue="0.71834520729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6rk-J9-IVs" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="87" id="GiB-XK-ohy"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="6rk-J9-IVs" secondAttribute="trailing" constant="88" id="NqG-1a-TCn"/>
+                            <constraint firstItem="6rk-J9-IVs" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="213" id="a4b-s9-AJM"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="6rk-J9-IVs" secondAttribute="bottom" constant="234" id="nh5-9d-Pkm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
                 </viewController>
@@ -26,4 +43,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TwitterLogoBlue" width="200" height="200"/>
+    </resources>
 </document>
